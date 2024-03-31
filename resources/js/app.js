@@ -1,6 +1,9 @@
 import './bootstrap';
 import '../css/app.css';
 
+import 'https://code.jquery.com/jquery-3.6.0.min.js';
+import 'https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js';
+
 import { createApp, h } from 'vue';
 import { createInertiaApp } from '@inertiajs/vue3';
 import { resolvePageComponent } from 'laravel-vite-plugin/inertia-helpers';
